@@ -1,0 +1,66 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Tahoma', 'Lucida Grande', sans-serif;
+    color: #333;
+    background: #fff9ef;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 700px;
+}
+img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+}
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 2rem;
+    max-width: 600px;
+}
+li {
+    line-height: 1.4;
+}
+
+/* classes and ids */
+.brown {
+    background: #998463;
+    color: #f7f4ef;
+}
+.second {
+    border: 1px solid;
+    margin-top: 1rem;
+}
+.butt {
+    background: #ffb53f;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0 0 1rem 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* links */
+a {
+    color: #998463;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ffb53f;
+    text-decoration: none;
+}
