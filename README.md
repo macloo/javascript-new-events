@@ -7,3 +7,13 @@ This repo contains three HTML pages. Each one has its own, separate JavaScript f
 * [example2.html](https://macloo.github.io/javascript-new-events/example2.html) &mdash; This looks the same as the previous page, but now you click the DIV and the two paragraphs are hidden. A new DIV is revealed, and clicking it will bring back the two hidden paragraphs.
 
 * [example3.html](https://macloo.github.io/javascript-new-events/example3.html) &mdash; CSS animation and JavaScript are used together to make several paragraphs fade out when clicked. It uses the JavaScript `.forEach()` method to affect all the P elements on the page.
+
+NOTE that by enclosing the entire JavaScript file in between the following two lines, we ensure that the DOM has fully loaded before we try to use it.
+
+```
+document.addEventListener('DOMContentLoaded', () => {
+
+   // code here
+
+});
+```
